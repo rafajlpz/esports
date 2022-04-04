@@ -85,6 +85,11 @@ section {
   border: 1px solid white;
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
+  /* Centrado imagen y configuracion */
+  
+  background-position: center;
+  
+  background-repeat: no-repeat;
 }
 .grid-item:hover {
   filter: opacity(0.9);
