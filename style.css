@@ -82,18 +82,20 @@ section {
   align-items: center;
   justify-content: center;
   background-color: aqua;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
   /* Centrado imagen y configuracion */
   
-  background-position: center;
-  
+  background-position: center;  
   background-repeat: no-repeat;
 }
 .grid-item:hover {
   filter: opacity(0.9);
   transform: scale(1.04);
+}
+.grid-item img{
+  height: 150px;
 }
 
 
