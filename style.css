@@ -7,7 +7,7 @@
 }
 nav {
   background-color: whitesmoke;
-  height: 80px;
+  height: 90px;
   width: 100%;
 }
 
@@ -16,7 +16,9 @@ nav {
   padding: 20px 50px;
 }
 .logo {
-  height: 40px;
+  height: 45px;
+  /* background: transparent !important; */
+  
 }
 nav ul {
   float: right;
@@ -61,6 +63,7 @@ section {
 
 #wrapper-container {
   width: 1200px;
+  min-height: 100vh;
   margin: 0 auto;
   position: relative;
   background-color: #fff;
